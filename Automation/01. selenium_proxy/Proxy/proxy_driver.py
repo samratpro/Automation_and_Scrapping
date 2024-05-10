@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
-from extension import proxies
+from proxy_extension import proxies
 
 # smartproxy.com
 username = 'user-spf1lb1tfd-session-1'
