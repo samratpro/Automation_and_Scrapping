@@ -11,8 +11,8 @@ from time import sleep
 from proxy_extension import proxies
 
 # smartproxy.com
-username = 'user-spf1lb1tfd-session-1'
-password = '4ihsvz3mMtW18d=mUE'
+username = 'user-XXXXXXXXXX'
+password = 'XXXXXXXXXXXX'
 endpoint = 'gate.smartproxy.com'
 port = '7000'
 chrome_options = webdriver.ChromeOptions()
