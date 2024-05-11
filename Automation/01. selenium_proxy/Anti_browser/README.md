@@ -10,7 +10,7 @@ executablePath C:\Users\USER\.gologin\browser\orbita-browser-114\chrome
 ## How to use 14 version
 ```
 step 1: Keep version 14 chrome driver with source code folder
-step 2: Browse "executablePath" and delete all orbita browser and only keep orbita-browser-114
+step 2: Browse "executablePath" browser folder and delete all orbita browser and only keep orbita-browser-114
 ```
 
 
