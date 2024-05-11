@@ -1,3 +1,19 @@
+# 14 version Orbita Browser & 14 version chrome driver
+```
+https://drive.google.com/drive/folders/1n-i-flogd5Ac1wIq-QxB8U8OFFj2pm2r?usp=sharing
+or
+https://drive.google.com/drive/folders/15uCrKy6nhXT2s3yi3Z8LW7pUq1mEML2O?usp=sharing
+or
+https://1drv.ms/f/c/b7734939031d931b/EsrIBkSu-FdHmXDD6uVRYBsB0KTJtmtgpHmaJd472cTb2A?e=duCzEt
+executablePath C:\Users\USER\.gologin\browser\orbita-browser-114\chrome
+```
+## How to use 14 version
+```
+step 1: Keep version 14 chrome driver with source code folder
+step 2: Browse "executablePath" and delete all orbita browser and only keep orbita-browser-114
+```
+
+
 # pygologin
  REST API provides programmatic access to GoLogin App. Create a new browser profile, get a list of all browser profiles, add a browser profile and running 
 
