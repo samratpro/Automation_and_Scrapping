@@ -9,7 +9,8 @@ from time import sleep
 
 gl = GoLogin({
 	"token": "",
-	"profile_id": ""
+	"profile_id": "",
+	# "extra_params":["--headless"]
 	})
 
 
