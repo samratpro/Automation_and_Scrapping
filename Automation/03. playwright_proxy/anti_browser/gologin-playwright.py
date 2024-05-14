@@ -6,6 +6,7 @@ async def main():
     gl = GoLogin({
 		"token": "yU0token",
 		"profile_id": "yU0Pr0f1leiD",
+	        # "extra_params":["--headless"]
 		})
 
     debugger_address = gl.start()
