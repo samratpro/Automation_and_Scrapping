@@ -20,3 +20,14 @@ async def main():
     gl.stop()
 
 asyncio.get_event_loop().run_until_complete(main())
+
+# sync
+from playwright.sync_api import sync_playwright
+gl = GoLogin({"token": token,"profile_id": "66448d4d37d1dd0246ba4ec8"})
+with sync_playwright() as p:
+	debugger_address = gl.start()
+	browser = p.chromium.connect_over_cdp("http://" + debugger_address)
+	default_context = browser.contexts[0]
+	page = default_context.pages[0]
+	page.stop()
+	gl.stop()
