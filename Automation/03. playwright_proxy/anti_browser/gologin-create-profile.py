@@ -1,34 +1,24 @@
 from gologin import GoLogin
 
 
-gl = GoLogin({
-	"token": "yU0token",
-	})
-
-profile_id = gl.create({
-    "name": 'profile_mac',
-    "os": 'mac',
-    "navigator": {
-        "language": 'en-US',
-        "userAgent": 'random',
-        "resolution": '1024x768',
-        "platform": 'mac',
-    },
-    'proxy': {
-        'mode': 'gologin', # Specify 'none' if not using proxy
-        'autoProxyRegion': 'us' 
-        # "host": '',
-        # "port": '',
-        # "username": '',
-        # "password": '',
-    },
-    "webRTC": {
-        "mode": "alerted",
-        "enabled": True,
-    },
-});
-
-print('profile id=', profile_id);
+def create_profile_id():
+  gl = GoLogin({"token": token, })
+  platform = choice(['mac', 'win', 'lin'])   # 'android'
+  profile_id = gl.create({
+    "name": choice(['profile1', 'profile2', 'profile3', 'profile4', 'profile5', 'profile6']),
+    "os": platform,
+    "navigator": {"language": 'en-US', "userAgent": 'random', "resolution": 'random', "platform": platform},
+    'proxyEnabled': True,
+    'proxy':
+      {"mode": 'http',
+       'host': host,
+       'port': port,
+       'username': username,
+       'password': password
+       },
+    "webRTC": {"mode": "alerted", "enabled": True}
+  })
+  return profile_id
 
 # gl.update({
 #     "id": 'yU0Pr0f1leiD',
